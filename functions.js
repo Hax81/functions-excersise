@@ -81,11 +81,20 @@
 //Write a function named ageInMonths that 
 //takes a person's age in years as a parameter and logs their age in months (e.g., age * 12).
 
-function ageInMonths() {
+// function ageInMonths(years) {
 
+
+// let age=years*12;
+
+// console.log(" You are" +" "+ age +" "+ "months old");
 
   
-}
+// }
+
+// ageInMonths();
+
+
+//9. 
 
 
 
@@ -94,24 +103,32 @@ function ageInMonths() {
 
 
 
-//13.
 
-function countVowels(str) {
 
-  let count=0;
-  const vowels=["a","e","i","o", "u"];
 
-  for(const letter of str.toLowerCase()){
 
-    if(vowels.includes(letter)) {
-      count++;
 
-    }
 
-  }
-  return count;
+
+
+// //13.
+
+// function countVowels(str) {
+
+//   let count=0;
+//   const vowels=["a","e","i","o", "u"];
+
+//   for(const letter of str.toLowerCase()){
+
+//     if(vowels.includes(letter)) {
+//       count++;
+
+//     }
+
+//   }
+//   return count;
    
 
-}
+// }
 
-console.log("Vowels"=count);
+// console.log("Vowels"=count);
