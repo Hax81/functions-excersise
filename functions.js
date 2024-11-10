@@ -94,22 +94,75 @@
 // ageInMonths();
 
 
-//9. 
+//9. Create a function called celsiusToFahrenheit that takes a temperature 
+//in Celsius as a parameter and logs the equivalent temperature in Fahrenheit to the console
+
+// function celciusToFahrenheit(celcius) {
 
 
+// let fahrenheit=celcius*33.8;
+
+// console.log(`${celcius} degrees celcius is equivalent to ${fahrenheit} degrees fahrenheit`);
+
+// return(fahrenheit);
+
+// }
+
+//10. Write a function named getFullName that takes two parameters, 
+//firstName and lastName, and logs the full name as a single string (e.g., "John Doe") to the console. 
+
+// function getFullName(firstName,lastName) {
+
+// let name=firstName+ " " +lastName;
+
+// console.log(`The full name is ${name}`);
+
+// return(name);
+
+// }
 
 
+//11. Create a function called calculateArea that takes the length and width of a rectangle as parameters 
+//and logs the area to the console.
+
+// function calculateArea(length,width) {
+
+//   let area=length*width;
+
+//   console.log(`The area of the rectangle is ${area} squared`);
+
+//   return(area);
+
+// }
+
+// 12. Write a function named findMax that takes two numbers as parameters and logs the larger of the two.
+
+// function findMax(x,y) {
 
 
+// if(x>y) {
+
+// console.log(`${x} is the biggest number`);
+
+// return(x);
+// }
+
+// if(y>x) {
+
+// console.log(`${y} is the biggest number`);
+// return(y);
+
+// }
+
+// else {
+
+//   console.log("Invalid input");
+//   return(0);
+
+// }
 
 
-
-
-
-
-
-
-
+// }
 
 // //13.
 
@@ -132,3 +185,130 @@
 // }
 
 // console.log("Vowels"=count);
+
+//14. Discount Price
+//Write a function named calculateDiscount that takes the original price and the 
+//discount percentage as parameters and logs the price after discount to the console.
+
+// function calculateDiscount(orgPrice,discPerc) {
+
+
+// let discount=orgPrice*discPerc;
+// let price=orgPrice-discount;
+
+// console.log(`The price after discount is ${price}`);
+
+// return(price);
+
+// }
+
+// 15. Reverse String
+
+// Create a function called reverseString that takes a string 
+// as a parameter and logs the string reversed to the console
+
+// function reverseString(str) {
+
+// let strrev=str.split("").reverse().join("");
+
+// console.log(strrev);
+// return (strrev);
+
+
+// }
+
+//Level intermediate 
+//1. Write a function called isPalindrome that takes a string as a parameter and returns true if 
+//the string is a palindrome (reads the same forwards and backwards) and false otherwise.
+
+// function isPalindrome(str) {
+
+// let strPalin=str.split("").reverse().join("");
+
+// if(strPalin===str) {
+//   console.log("true");
+//   return true;
+// }
+
+// if(strPalin!==str) {             //För bättre läsbarhet bör detta egentligen vara en else{}.
+//     console.log("false");
+//     return false;
+
+// }
+
+// }
+
+/*2. Create a function named fizzBuzz that takes a number as a parameter and returns:
+"Fizz" if the number is divisible by 3,
+"Buzz" if it is divisible by 5,
+"FizzBuzz" if it is divisible by both, and
+the number itself if none of these conditions are met.*/
+
+// function fizzBuzz(x) {
+
+
+//   if(x%5===0 && x%3===0) {
+//     console.log("FizzBuzz");
+//     return "FizzBuzz";
+  
+//   }
+  
+  
+//   if(x%3===0) {
+//     console.log("Fizz");
+//     return "Fizz";
+
+//   }
+
+//   if(x%5===0) {
+//     console.log("Buzz");
+//     return "Buzz";
+
+//   }
+
+//   else {
+//     console.log(x);
+//     return x;
+
+
+//   }
+
+
+// }
+
+
+
+//3. Write a function called factorial that takes a positive integer as a 
+//parameter and returns the factorial of that number (e.g., 5! = 5 × 4 × 3 × 2 × 1).
+
+function factorial(x) {
+
+ if (x < 0) {
+
+console.log("The number must be a positive integer");
+
+ } 
+
+ let result=1;
+ 
+ for (let i=1; i<=x; i++) {
+
+  result*=i;
+
+
+
+ }
+ return result;
+
+}
+
+//4. Longest Word
+//Create a function named findLongestWord that takes a string (a sentence) as a parameter 
+//and returns the longest word in that sentence.
+
+function findLongestWord() {
+
+  
+
+
+}
