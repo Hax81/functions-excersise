@@ -281,34 +281,98 @@ the number itself if none of these conditions are met.*/
 //3. Write a function called factorial that takes a positive integer as a 
 //parameter and returns the factorial of that number (e.g., 5! = 5 × 4 × 3 × 2 × 1).
 
-function factorial(x) {
+// function factorial(x) {
 
- if (x < 0) {
+//  if (x < 0) {
 
-console.log("The number must be a positive integer");
+// console.log("The number must be a positive integer");
 
- } 
+//  } 
 
- let result=1;
+//  let result=1;
  
- for (let i=1; i<=x; i++) {
+//  for (let i=1; i<=x; i++) {
 
-  result*=i;
+//   result*=i;
 
 
 
- }
- return result;
+//  }
+//  return result;
 
-}
+// }
 
 //4. Longest Word
 //Create a function named findLongestWord that takes a string (a sentence) as a parameter 
 //and returns the longest word in that sentence.
 
-function findLongestWord() {
+// function findLongestWord(str) {
+
+// let strSplit=str.split(' ');
+// let longestWord="";
+
+// for (let i=0; i<strSplit.length; i++) {
+
+//     if(strSplit[i].length>longestWord.length){
+      
+//       longestWord=strSplit[i];
+
+
+//       }
+
+
+//     }
+
+// console.log(`The longest word is ${longestWord}`);
+// return longestWord;
+
+// }
+
+//5. Array Average
+//Write a function called calculateAverage that takes an array of numbers as a parameter and returns 
+//the average of those numbers.
+
+// function calculateAverage(array) {
 
   
+//   let sum=0;
+
+//     for(let i=0;i<array.length;i++) {
+
+//       sum+=array[i];
+
+//     }
+
+//     let mean=sum/array.length;
+//     return mean;
 
 
-}
+// }
+
+
+//6.Remove Duplicates
+//Create a function named removeDuplicates that takes an array as a parameter and returns a new array 
+//with duplicate values removed.
+
+// function removeDuplicates(array) {
+
+// let newArr=[];
+
+// for (let i=0;i<array.length;i++) {
+
+//   if(newArr.indexOf(array[i]) === -1) { //"Om aktuellt index av array INTE redan finns i newArr så..."
+
+//     newArr.push(array[i]);          //"...pusha in det arrayindex i newArr"
+
+//   }
+
+
+
+// }
+
+// return newArr;
+
+// }
+
+
+//7. 
